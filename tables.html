@@ -6,10 +6,49 @@
     <meta name="robots" content="tables,follow">
     <title>HTML LISTS AND TABLES</title>
     <link rel="icon" href="/icons/favicon (1).ico">
+
+    
+
 </head>
 <body>
-   <h1>hello</h1>
-    <table>
+    <style>
+        h1{
+            text-align:center;
+        }
+        .time-table{
+           border-collapse: collapse; 
+           margin:25px, 0;
+           font-size: 0.9em;
+           min-width: 400px;
+           
+        }
+
+        .time-table thead tr {
+            background-color: rgb(11, 109, 76);
+            color: white;
+
+        }
+
+        .time-table tbody th {
+            background-color: rgb(11, 170, 72);
+            color: rgb(2, 2, 2);
+            text-align: left;
+        }
+
+        .time-table th,
+        .time-table td{
+            padding:12px 15px;
+
+        }
+
+        .time-table tbody tr {
+            border: 1px solid #044615;
+            
+        }
+    </style>
+   <h1>HTML TABLES</h1>
+    <table class="time-table">
+        <caption> This is an assignment done by Jane Wangui</caption>
         <thead>
             <tr>
                 <th colspan="6"> Time Table</th>
